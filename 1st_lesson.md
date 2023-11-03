@@ -12,7 +12,7 @@
 6. On test -> On fix, Done.
 7. Done -> Closed, Open.
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/Screenshot_1.png "bug")
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/Screenshot_3.png "bug")
 
 Остальные задачи должны проходить по упрощённому workflow:
 
@@ -22,7 +22,7 @@
 4. On test -> On develop, Done.
 5. Done -> Closed, Open.
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/Screenshot_2.png "epic")
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/Screenshot_4.png "epic")
 
 **Что нужно сделать**
 
@@ -34,7 +34,9 @@
 2. Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.
 
 
-
-Выполненное домашнее задание пришлите в виде ссылки на .md-файл в вашем репозитории.
-
 ---
+
+[bug_workflow](https://github.com/Jlljully/CI_files/blob/main/bug_wf.xml "bug")
+
+[all_other_workflow](https://github.com/Jlljully/CI_files/blob/main/all_other.xml "epic")
+
