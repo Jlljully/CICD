@@ -8,11 +8,12 @@
 4. Запустите playbook, ожидайте успешного завершения.
 5. Проверьте готовность SonarQube через [браузер](http://localhost:9000).
 6. Зайдите под admin\admin, поменяйте пароль на свой.
-7.  Проверьте готовность Nexus через [бразуер](http://localhost:8081).
+7. Проверьте готовность Nexus через [бразуер](http://localhost:8081).
 8. Подключитесь под admin\admin123, поменяйте пароль, сохраните анонимный доступ.
 
 ### Ответ
 
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled1.png "pre")
 
 
 ## Знакомоство с SonarQube
@@ -30,6 +31,16 @@
 9. Сделайте скриншот успешного прохождения анализа, приложите к решению ДЗ.
 
 ### Ответ
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled2.png "sonar")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled3.png "sonar")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled4.png "sonar")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled5.png "sonar")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled6.png "sonar")
 
 
 
@@ -51,6 +62,13 @@
 
 ### Ответ
 
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled7.png "nexus")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled8.png "nexus")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled9.png "nexus")
+
+[maven-metadata.xml](https://github.com/Jlljully/CI_files/blob/main/9.3/maven-metadata.xml "xml")
 
 
 ### Знакомство с Maven
@@ -63,9 +81,6 @@
 4. Проверьте `mvn --version`.
 5. Заберите директорию [mvn](./mvn) с pom.
 
-### Ответ
-
-
 
 ### Основная часть
 
@@ -75,5 +90,9 @@
 4. В ответе пришлите исправленный файл `pom.xml`.
 
 ### Ответ
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled10.png "maven")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled11.png "maven")
 
 
