@@ -7,6 +7,18 @@
 3. Запустить и проверить работоспособность.
 4. Сделать первоначальную настройку.
 
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nrqs.png "установка")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ngea.png "установка")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ngxo.png "установка")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-njth.png "установка")
+
+![Скрин]( "установка")
+
+![Скрин]( "установка")
+
 ## Основная часть
 
 1. Сделать Freestyle Job, который будет запускать `molecule test` из любого вашего репозитория с ролью.
@@ -18,6 +30,18 @@
 7. Проверить работоспособность, исправить ошибки, исправленный Pipeline вложить в репозиторий в файл `ScriptedJenkinsfile`.
 8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 9. Сопроводите процесс настройки скриншотами для каждого пункта задания!!
+
+## Ответ
+
+1. Выдала для дженкинса временный токен на гитхабе, добавила его в дженкинс
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-noqq.png "task1")
+
+![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nmvm.png "task1")
+
+![Скрин]( "task1")
+
+![Скрин]( "task1")
 
 ## Необязательная часть
 
