@@ -74,6 +74,11 @@
 
 ![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-oksd.png "task5")
 
+[lighthouserole](https://github.com/Jlljully/lighthouse-role)
+[Jenkinsfile](https://github.com/Jlljully/CI_files/blob/main/Jenkinsfile)
+[ScriptedJenkinsfile](https://github.com/Jlljully/CI_files/blob/main/lesson4/ScriptedJenkinsfile)
+
+
 
 ## Необязательная часть
 
