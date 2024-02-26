@@ -13,7 +13,7 @@
 
 ### Ответ
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled1.png "pre")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled1.png "pre")
 
 
 ## Знакомоство с SonarQube
@@ -32,15 +32,15 @@
 
 ### Ответ
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled2.png "sonar")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled2.png "sonar")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled3.png "sonar")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled3.png "sonar")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled4.png "sonar")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled4.png "sonar")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled5.png "sonar")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled5.png "sonar")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled6.png "sonar")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled6.png "sonar")
 
 
 
@@ -62,13 +62,13 @@
 
 ### Ответ
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled7.png "nexus")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled7.png "nexus")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled8.png "nexus")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled8.png "nexus")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled9.png "nexus")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled9.png "nexus")
 
-[maven-metadata.xml](https://github.com/Jlljully/CI_files/blob/main/9.3/maven-metadata.xml "xml")
+[maven-metadata.xml](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/maven-metadata.xml "xml")
 
 
 ### Знакомство с Maven
@@ -91,8 +91,8 @@
 
 ### Ответ
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled10.png "maven")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled10.png "maven")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/9.3/Untitled11.png "maven")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_3/Untitled11.png "maven")
 
 
