@@ -1,0 +1,17 @@
+pipeline {
+    agent {
+        label 'ansible'
+    }
+    stages {
+        stage (first) {
+            steps {
+                sh 'echo "test2"'
+            }
+        }
+        stage (second) {
+            steps {
+                sh "molecule test"
+            }
+        }
+    }
+}
