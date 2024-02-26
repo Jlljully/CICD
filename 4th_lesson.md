@@ -7,13 +7,13 @@
 3. Запустить и проверить работоспособность.
 4. Сделать первоначальную настройку.
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nrqs.png "установка")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-nrqs.png "установка")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ngea.png "установка")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-ngea.png "установка")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ngxo.png "установка")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-ngxo.png "установка")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-njth.png "установка")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-njth.png "установка")
 
 
 ## Основная часть
@@ -32,51 +32,51 @@
 
 1. Выдала для дженкинса временный токен на гитхабе, добавила его в дженкинс
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nmvm.png "task1")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-nmvm.png "task1")
 
 Создала джоб с запуском молекулы и просто парой выводов, убедилась, что удаленный реп во временную директорию скачивается (видно по ls -la), молекула тест не выполняется, потому что поставила последнюю, а снова с версиями сейчас мучаться не хочется. Работу дженкинса проверила:
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-noqq.png "task1")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-noqq.png "task1")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nofp.png "task1")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-nofp.png "task1")
 
 2. Сделала такой же декларативный джоб тоже с парой лишних выводов в консоль, чтоб видеть, что работает все, кроме молекулы:
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nthb.png "task2")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-nthb.png "task2")
 
 Вспомнила, что не добавляла метки))) Добавила
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ntoi.png "task2")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-ntoi.png "task2")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nten.png "task2")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-nten.png "task2")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-nvrw.png "task2")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-nvrw.png "task2")
 
 3-4. Перенесла этот джоб в дженкинс файл в своем репе, сделала отдельный джоб:
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-oilg.png "task3")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-oilg.png "task3")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-oiuc.png "task3")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-oiuc.png "task3")
 
 Снова все ок, кроме самой молекулы
 
 5-7. Создала джоб со скриптом, добавила параметр prod_run
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-oexn.png "task5")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-oexn.png "task5")
 
 вместо проверки secret_check закинуа проверку prod_run - если true, выполняется без --check --diff, если false - с ним. В идеале, все должно работать, но доступ, кажется, стух, потому что спустя 10 минут работает таймаут и отваливается джоб:
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ogbo.png "task5")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-ogbo.png "task5")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ogee.png "task5")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-ogee.png "task5")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-ojbv.png "task5")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-ojbv.png "task5")
 
-![Скрин](https://github.com/Jlljully/CI_files/blob/main/lesson4/SCR-20240127-oksd.png "task5")
+![Скрин](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/SCR-20240127-oksd.png "task5")
 
 [lighthouserole](https://github.com/Jlljully/lighthouse-role)
 [Jenkinsfile](https://github.com/Jlljully/CI_files/blob/main/Jenkinsfile)
-[ScriptedJenkinsfile](https://github.com/Jlljully/CI_files/blob/main/lesson4/ScriptedJenkinsfile)
+[ScriptedJenkinsfile](https://github.com/Jlljully/CICD/blob/main/files/lesson_4/ScriptedJenkinsfile)
 
 
 
